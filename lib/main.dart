@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import './app.dart';
+import './app.dart';
 import 'loadingPage.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         title: 'wechart',
         theme: myDefaultTheme,
         routes: <String, WidgetBuilder>{
-          // "app": (BuildContext context) => new App(),
+          "app": (BuildContext context) => new App(),
           "/friends": (_) => new WebviewScaffold(
             url: "https://weixin.qq.com",
             appBar: new AppBar(

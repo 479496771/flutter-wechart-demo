@@ -45,7 +45,17 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/loading.jpeg
+    - images/loading.jpg
+
+    # 四个tab图片切换资源
+    - images/contact_list_normal.png
+    - images/contact_list_pressed.png
+    - images/find_normal.png
+    - images/find_pressed.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
+    - images/weixin_normal.png
+    - images/weixin_pressed.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

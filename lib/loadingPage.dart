@@ -14,14 +14,14 @@ class _LoadingPageState extends State<LoadingPage> {
     super.initState();
     new Future.delayed(Duration(seconds: 3),(){
       print('Flutter高仿微信程序启动。。。');
-      // Navigator.of(context).pushReplacementNamed("app");
+      Navigator.of(context).pushReplacementNamed("app");
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Image.asset("images/loading.jpeg"),
+      child: Image.asset("images/loading.jpg"),
     );
   }
 }
